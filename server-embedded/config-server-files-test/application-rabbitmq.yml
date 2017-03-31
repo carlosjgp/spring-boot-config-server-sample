@@ -1,0 +1,4 @@
+spring:
+  rabbitmq:
+    host: rabbitmq.service.consul
+    port: 5672

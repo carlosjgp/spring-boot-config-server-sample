@@ -1,0 +1,5 @@
+spring:
+  application.name: a-bootiful-client
+  profiles.active: default,rabbitmq
+  cloud.config.uri: http://localhost:8888    
+management.security.enabled: false

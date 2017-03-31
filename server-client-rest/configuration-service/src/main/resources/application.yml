@@ -1,0 +1,21 @@
+server.port: 8888
+
+spring:
+  rabbitmq:
+    host: rabbitmq.service.consul
+    port: 5672
+    username: config-server 
+    password: 123456789
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://carlosjuangp@bitbucket.org/carlosjuangp/config-server-files-test.git
+          username: carlos.gomez@crunch.co.uk
+          password: Vr@u31hHfE
+          clone-on-start: true
+
+management:
+  security:
+    enabled: false

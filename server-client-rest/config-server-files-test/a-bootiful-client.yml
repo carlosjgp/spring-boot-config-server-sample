@@ -1,0 +1,7 @@
+message: Hello Carlos PUSH
+
+
+spring:
+  rabbitmq:
+    username: a-bootiful-client
+    password: 123456789
